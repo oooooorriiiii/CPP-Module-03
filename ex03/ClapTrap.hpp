@@ -2,8 +2,8 @@
 // Created by yuumo on 2022/08/02.
 //
 
-#ifndef EX00_CLAPTRAP_HPP
-#define EX00_CLAPTRAP_HPP
+#ifndef EX03_CLAPTRAP_HPP
+#define EX03_CLAPTRAP_HPP
 
 #include <iostream>
 
@@ -24,7 +24,7 @@ public:
 	unsigned int        getEnergyPoints() const;
 	unsigned int        getAttackDamage() const;
 
-private:
+protected:
 	const std::string 	_name;
 	unsigned int        _hitPoints;
 	unsigned int        _energyPoints;
@@ -32,4 +32,4 @@ private:
 };
 
 
-#endif //EX00_CLAPTRAP_HPP
+#endif //EX03_CLAPTRAP_HPP

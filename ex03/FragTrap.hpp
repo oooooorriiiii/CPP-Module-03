@@ -2,8 +2,8 @@
 // Created by yuumo on 2022/08/02.
 //
 
-#ifndef EX02_FRAGTRAP_HPP
-#define EX02_FRAGTRAP_HPP
+#ifndef EX03_FRAGTRAP_HPP
+#define EX03_FRAGTRAP_HPP
 
 #include "ClapTrap.hpp"
 
@@ -21,4 +21,4 @@ public:
 };
 
 
-#endif //EX02_FRAGTRAP_HPP
+#endif //EX03_FRAGTRAP_HPP
