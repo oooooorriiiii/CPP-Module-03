@@ -19,16 +19,16 @@ public:
 	void	takeDamage(unsigned int amount);
 	void	beRepaired(unsigned int amount);
 
-	const std::string   getName() const;
+	const std::string&  getName() const;
 	unsigned int        getHitPoints() const;
 	unsigned int        getEnergyPoints() const;
 	unsigned int        getAttackDamage() const;
 
 private:
-	std::string 	_name;
-	unsigned int	_hitPoints;
-	unsigned int	_energyPoints;
-	unsigned int	_attackDamage;
+	const std::string 	_name;
+	unsigned int        _hitPoints;
+	unsigned int        _energyPoints;
+	unsigned int        _attackDamage;
 };
 
 

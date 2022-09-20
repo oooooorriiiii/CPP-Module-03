@@ -21,7 +21,7 @@ ClapTrap::ClapTrap(const ClapTrap &clapTrap) : _name(clapTrap._name), _hitPoints
 }
 
 ClapTrap&	ClapTrap::operator=(const ClapTrap &clapTrap) {
-	_name = clapTrap._name;
+    static_cast<std::string>(_name) = clapTrap._name;
 	_hitPoints = clapTrap._hitPoints;
 	_energyPoints = clapTrap._energyPoints;
 	_attackDamage = clapTrap._attackDamage;
@@ -68,7 +68,7 @@ void    ClapTrap::beRepaired(unsigned int amount) {
     _energyPoints--;
 }
 
-const std::string   ClapTrap::getName() const { return _name; }
+const std::string&  ClapTrap::getName() const { return _name; }
 unsigned int        ClapTrap::getHitPoints() const { return _hitPoints; }
 unsigned int        ClapTrap::getEnergyPoints() const { return _energyPoints; }
 unsigned int        ClapTrap::getAttackDamage() const { return _attackDamage; }
