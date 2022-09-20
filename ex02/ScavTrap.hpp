@@ -2,8 +2,8 @@
 // Created by yuumo on 2022/08/02.
 //
 
-#ifndef EX01_SCAVTRAP_HPP
-#define EX01_SCAVTRAP_HPP
+#ifndef EX02_SCAVTRAP_HPP
+#define EX02_SCAVTRAP_HPP
 
 #include <iostream>
 
@@ -22,4 +22,4 @@ public:
 };
 
 
-#endif //EX01_SCAVTRAP_HPP
+#endif //EX02_SCAVTRAP_HPP

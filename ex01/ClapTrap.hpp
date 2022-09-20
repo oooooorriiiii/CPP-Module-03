@@ -2,8 +2,8 @@
 // Created by yuumo on 2022/08/02.
 //
 
-#ifndef EX00_CLAPTRAP_HPP
-#define EX00_CLAPTRAP_HPP
+#ifndef EX01_CLAPTRAP_HPP
+#define EX01_CLAPTRAP_HPP
 
 #include <iostream>
 
@@ -32,4 +32,4 @@ protected:
 };
 
 
-#endif //EX00_CLAPTRAP_HPP
+#endif //EX01_CLAPTRAP_HPP
